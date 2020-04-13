@@ -8,7 +8,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 const greet = (string) => {
   if(string.split(":")[0] > 17) {
-    return "Good Evening!";
+    return "Good Evening";
   } else if(string.split(":")[0] < 17 && string.split(":")[0] >= 12) {
     return "Good Afternoon";
   } else if(string.split(":")[0] < 12) {
